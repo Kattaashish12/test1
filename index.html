@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul DJ Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@latest/dist/email.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Rahul DJ Services</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#music">Music</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience the Perfect Mix</h1>
+            <p>Professional DJ Services for Your Special Events</p>
+            <a href="#contact" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-music"></i>
+                <h3>Weddings</h3>
+                <p>Create unforgettable moments with perfectly curated music for your special day.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-glass-cheers"></i>
+                <h3>Corporate Events</h3>
+                <p>Professional entertainment solutions for your corporate gatherings.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>Private Parties</h3>
+                <p>Customized playlists and mixing for any private celebration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="music" class="music">
+        <h2>Music Selection</h2>
+        <div class="genre-list">
+            <div class="genre">
+                <h3>House</h3>
+                <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+            </div>
+            <div class="genre">
+                <h3>Hip Hop</h3>
+                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+            </div>
+            <div class="genre">
+                <h3>Top 40</h3>
+                <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+            </div>
+            <div class="genre">
+                <h3>Latin</h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Call us: <a href="tel:+919391129320">+91 939-112-9320</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>WhatsApp: <a href="https://wa.me/919391129320" target="_blank">+91 939-112-9320</a></p>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="from_name" id="name" placeholder="Your Name" required>
+                <input type="email" name="from_email" id="email" placeholder="Your Email" required>
+                <input type="text" name="event_type" id="event-type" placeholder="Event Type">
+                <input type="date" name="event_date" id="event-date">
+                <textarea name="message" id="message" placeholder="Tell us about your event" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div id="success-message" class="success-message" style="display: none;">
+                Thank you for your message! We will get back to you soon.
+            </div>
+            <div id="error-message" class="error-message" style="display: none;">
+                Sorry, there was an error sending your message. Please try again.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-footer">
+                <p><i class="fas fa-phone"></i> <a href="tel:+919391129320">+91 939-112-9320</a></p>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919391129320" target="_blank">Chat on WhatsApp</a></p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-soundcloud"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2025 Rahul DJ Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
