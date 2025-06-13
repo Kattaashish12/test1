@@ -285,6 +285,45 @@ footer {
 .contact-footer a:hover {
     color: var(--accent-color);
 }
+.reviews {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reviews h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-card p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.review-card h4 {
+    font-size: 1rem;
+    color: #888;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
